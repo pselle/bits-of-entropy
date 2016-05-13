@@ -192,7 +192,7 @@
 	            _react2.default.createElement(
 	              'em',
 	              null,
-	              'Hint: On a Mac, Control-Command-Space (⌃⌘␣) brings up your emoji keyboard'
+	              'Hint: On a Mac, Control-Command-Space (⌃⌘␣) brings up your emoji keyboard '
 	            ),
 	            '😀'
 	          ),

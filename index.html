@@ -11,7 +11,9 @@
 
     <p>Shannon entropy is the "average minimum number of bits needed to encode a string of symbols, based on the frequency of the symbols" (<a href="http://www.bearcave.com/misl/misl_tech/wavelets/compression/shannon.html" alt="Bear Cave article on Shannon entropy">source</a>).</p>
 
-    <p>Imagine that you and your friends have decided to communicate in an emoji-only protocol. Each emoji is a message. But some messages are more common than others – ex. 😀 is more commonly used among your friends than 🐭. Another way of saying that is that has a higher probability of appearing in a given message than 🐭.</p>
+    <p>Imagine that you and your friends have decided to communicate in an emoji-only protocol. Each emoji represents a message. But some emoji are more commonly used than others – ex. 😀&nbsp; appears more in messages among your friends than 🐭. Another way of saying that is that has a higher probability of appearing in a given message than 🐭.</p>
+
+    <p>Since 😀 &nbsp; is more commonly used than 🐭, it makes sense to be smarter about encoding your messages such that 😀 takes up less space than 🐭. What Shannon entropy calculates is the average minimum number of bits needed to encode a message, since we want to send our messages in the least amount of space possible, because yay, then we can send more messages and/or be efficient and stuff!
 
     <p>So in this Shannon entropy calculator, our <strong>symbols</strong> are emoji, and each member of the set has a different probability of being represented in a given message. As you change the probabilities, make sure they add up to 1 (100%) since otherwise your probability distribution is incomplete.</p>
 
