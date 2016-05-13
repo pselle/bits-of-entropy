@@ -79,6 +79,7 @@ class App extends React.Component {
           })}
         </div>
         <div className="add-emoji-form">
+          <p><em>Hint: On a Mac, Control-Command-Space (⌃⌘␣) brings up your emoji keyboard</em>😀</p>
           <input type="text" length="1" placeholder="Put an emoji here!" ref={this.storeFieldRef}/>
           <button onClick={this.addEmoji}>Add</button>
         </div>

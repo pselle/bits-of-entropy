@@ -186,6 +186,16 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'add-emoji-form' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            _react2.default.createElement(
+	              'em',
+	              null,
+	              'Hint: On a Mac, Control-Command-Space (⌃⌘␣) brings up your emoji keyboard'
+	            ),
+	            '😀'
+	          ),
 	          _react2.default.createElement('input', { type: 'text', length: '1', placeholder: 'Put an emoji here!', ref: this.storeFieldRef }),
 	          _react2.default.createElement(
 	            'button',
